@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    padding: 25px 70px;
+    align-items: center;
+    font-size: 35px;
+}
+.logo-line{
+    border-right: 2px solid white;
+    padding-right: 45px;
+}
+
+
+.list{
+    display: flex;
+    gap: 60px;
+    padding-right: 600px ;
+    color: rgb(255, 255, 255);
+}
+
+.button-small{
+    background-color: rgb(191, 64, 191);
+    padding: 10px 25px ;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.hero{
+    background-image: url(./assets/bg.png);
+    height: 930px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.hero-heading{
+    padding: 20px 500px;
+    padding-left: 700px;
+    word-wrap: break-word;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-description{
+    padding: 20px ;
+    font-size: 45px;
+    font-weight: 500;
+
+}
+.button-large{
+    background-color: rgb(191, 64, 191);
+    padding: 15px 30px ;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-weight: 700;
+    margin-top: 20px;
+}

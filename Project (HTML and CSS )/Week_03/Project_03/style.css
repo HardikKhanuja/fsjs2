@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgb(255,255,255);
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 150px;
+    align-items: center;
+}
+
+
+.list{
+    display: flex;
+    gap: 70px;
+    font-size: 35px;
+    padding-right: 500px ;
+    
+}
+.list-item:hover{
+    color: #000000;
+    font-weight: bolder;
+    font-size: 37px;
+    flex-wrap: wrap;
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-button{
+    border-radius: 20px;
+    border: 5px solid black;
+    padding: 10px 50px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(72, 72, 72);
+}
+
+.hero-image{
+    position: absolute;
+    top: 300px;
+    bottom: auto;
+    left:100px;
+    right:auto;
+}
+.square{
+    position: absolute;
+    top: 655px;
+    bottom: auto;
+    left:320px;
+    right:auto;
+}
+
+.globe{
+    position: absolute;
+    top: 200px;
+    bottom: auto;
+    left:1000px;
+    right:auto;
+}
+
+.star-one{
+    position: absolute;
+    top: 1000px;
+    bottom: auto;
+    left:850px;
+    right:auto;
+}
+
+.star-two{
+    position: absolute;
+    top: 250px;
+    bottom: auto;
+    left:2000px;
+    right:auto;
+}
+.hero-container-right{
+    position: absolute;
+    top: 400px;
+    left:950px;
+    word-wrap: break-word;
+    padding: 50px;
+}
+
+.hero-heading{
+    font-weight: 1200;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 90px;
+}
+.hero-description{
+    font-weight: 400;
+    padding: 70px 150px;
+    color: rgb(72, 72, 72);
+    font-size: 30px;
+}
+
+.button-email{
+    border-radius: 20px;
+    border: 5px solid black;
+    padding: 10px 50px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(72, 72, 72);
+}
+.button-div{
+    padding: 20px 250px;
+
+}
+.button-join{
+    border-radius: 20px;
+    background-color: #000000;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.contact-heading{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px 470px;
+}
+.icons{
+    padding: 0px 445px ;
+}
