@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F9F5ED;
+    list-style: none;
+}
+
+.navbar-list{
+    display: flex;
+    padding: 50px 250px;
+    gap: 120px;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.main-section{
+    display: flex;
+    margin: 50px 300px;
+    align-items: center;
+
+}
+
+.left-section{
+ padding: 0px  100px;
+ padding-top: 200px;
+}
+
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    padding-bottom: 40px;
+}
+
+.subtitle{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(83, 80, 80);
+    padding-bottom: 40px;
+}
+
+.learn-more-btn{
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #3B855B;
+    padding: 10px;
+    border-radius: 7px;
+}

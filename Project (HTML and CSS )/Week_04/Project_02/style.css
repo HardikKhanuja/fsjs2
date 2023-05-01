@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.navbar-list{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-items{
+    display: flex;
+    gap: 200px;
+    color: #636363;
+    font-size: 30px;
+    font-weight: 600;    
+}
+
+.list-items :hover{
+    display: flex;
+    gap: 200px;
+    color: #41D399;
+    font-size: 30px;
+    font-weight: 700;    
+}
+
+.main-section{
+    display: flex;
+}
+
+
+.stethoscope{
+    position: absolute;
+    top: 100px;
+    bottom: auto;
+    left:500px;
+    right:auto;
+}
+
+
+.top-angle{
+    position: absolute;
+    top: 200px;
+    bottom: auto;
+    left:100px;
+    right:auto;
+}
+
+.bottom-angle{
+    position: absolute;
+    top: 900px;
+    bottom: auto;
+    left:1250px;
+    right:auto;
+}
+
+
+.mouse{
+    position: absolute;
+    top: 950px;
+    bottom: auto;
+    left:1300px;
+    right:auto;
+}
+
+.green-box{
+    position: absolute;
+    top: 300px;
+    bottom: auto;
+    left:1550px;
+    right:auto;
+}
+
+.yellow-box{
+    position: absolute;
+    top: 350px;
+    bottom: auto;
+    left:1650px;
+    right:auto;
+}
+
+.doctor{
+    position: absolute;
+    top: 100px;
+    bottom: auto;
+    left:1570px;
+    right:auto;
+}
+
+
+.left-section{
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    top: 200px;
+    left: 100px;
+
+}
+
+.heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 130px;
+    font-weight: bolder;
+    padding: 50px 0px;
+    padding-right: 800px ;
+ }
+
+.subtitle{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #636363;
+    padding: 50px 0px;
+}
+
+
+.make-appointment-btn{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color:#41D399;
+    padding: 20px 75px;
+    border-radius: 30px;
+    border: none;
+}
