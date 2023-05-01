@@ -14,7 +14,7 @@
 ---
 
 ## Project_03 :
-![output image for Project_03](./Project_03/output.png)
+![output image for Project_03](./Project_03/Output.png)
 [Output to Project_03](./Project_03/index.html)
 
 `Note: All folders have respective output files as mentioned`
