@@ -17,3 +17,4 @@
 
 ![Screenshot-3](./Screenshot%20(9).png)
 
+`Note:this project is not responsive it is just made to practice replicating a design using Tailwind`

@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* upper navbar */
+.navbar{
+    background-image: url(./assets/Photos/futuristic-bg.png);
+    background-repeat: repeat-x repeat-y;
+    padding: 50px 100px;
+    background-position: center center;
+    /* min-height: 875px; */
+    color: #ffffff;
+}
+
+.upper-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.upper-nav-content{
+    display: flex;
+    gap: 50px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.sign-up-btn{
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #F4694C;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.sign-up-btn:hover{
+    font-weight: 500;
+    font-size: 15px;
+    background-color:  #ffffff;
+    color: #F4694C;
+    padding: 10px 20px;
+}
+
+.sign-in-btn{
+    font-weight: 500;
+    font-size: 15px;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.sign-in-btn:hover{
+    font-weight: 500;
+    font-size: 15px;
+    background-color:  #ffffff;
+    color: #F4694C;
+    padding: 10px 20px;
+}
+
+/* lower nav */
+
+.lower-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* left section */
+.left-section-heading{
+    font-size:55px;
+    padding-bottom: 20px;
+}
+
+.left-section-subheading{
+    font-size: 15px;
+    color: #d9d9d9;
+    padding-bottom: 30px;
+}
+
+.left-section-buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.get-started-btn{
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #F4694C;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.get-started-btn:hover{
+    font-weight: 500;
+    font-size: 15px;
+    background-color:  #ffffff;
+    color: #F4694C;
+    padding: 10px 20px;
+}
+
+
+.learn-more-btn{
+    font-weight: 500;
+    font-size: 15px;
+    background-color: transparent;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    padding: 10px 20px;
+}
+.learn-more-btn:hover{
+    font-weight: 500;
+    font-size: 15px;
+    background-color:  #ffffff;
+    color: #F4694C;
+    padding: 10px 20px;
+}
+
+
+/* right section */
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.play-button{
+    height: 80px;
+    width: 80px;
+}
+.play-button:hover{
+    height: 85px;
+    width: 85px;
+}
+
+
+.right-section-bottom{
+    display: flex;
+    gap: 20px;
+}
+.dash{
+    width: 40px;
+    align-self: flex-start;
+}
+.arrow{
+    width: 40px;
+    align-self: flex-end;
+}
+.right-section-bottom-heading{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* first section */
+
+.first-section{
+    text-align: center;
+    padding: 100px;
+}
+
+.first-section-heading{
+    font-size: 50px;
+    padding: 50px 0px;
+}
+
+
+/* games grid */
+.games-grid{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.game-card{
+    color: #ffffff;
+    display: flex;
+    text-align: left;
+    align-items: flex-end;
+    height: 400px;
+    width: 300px;
+    background-size: 750px;
+}
+.game-card:hover{
+    transform: scale(1.3) ;
+    color: #ffffff;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    background-size: 600px;
+}
+.game-details{
+    display: flex;
+    padding: 10px;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    background-color: rgba(73, 78, 80, 0.6);
+}
+.game-name-heading{
+    font-size: 15px;
+    font-weight: 600;
+}
+.game-name-category{
+    font-size: 12px;
+    color: #d9d9d9;
+}
+.download-btn{
+    height: 50%;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #F4694C;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+.download-btn:hover{
+    font-weight: 500;
+    font-size: 15px;
+    background-color:  #ffffff;
+    color: #F4694C;
+    padding: 5px 10px;
+}
+/* adding images to grid */
+.game-card-1{
+    background-image: url(./assets/Photos/image\ 2.png);
+    background-position:70%;
+}
+.game-card-2{
+    background-image: url(./assets/Photos/image\ 3.png);
+    background-position:70%;
+}
+.game-card-3{
+    background-image: url(./assets/Photos/image\ 4.png);
+    background-position:70%;
+}
+.game-card-4{
+    background-image: url(./assets/Photos/Rectangle\ 17.png);
+    background-position:70%;
+}
+
+
+/* second section */
+ .second-section{
+    padding: 100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+ }
+.second-section-img{
+    max-width: 40%;
+    height: auto;
+}
+
+.second-section-heading{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.second-section-subheading{
+    font-size: 15px;
+    font-weight: 400;
+    color: #797979;
+    padding-bottom: 20px;
+}
+
+.second-section-game-buttons{
+    display: flex;
+    gap: 20px;
+}
+
+
+.explore-now-btn{
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #F4694C;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.explore-now-btn:hover{
+    font-weight: 500;
+    font-size: 15px;
+    background-color:  #ffffff;
+    color: #F4694C;
+    padding: 10px 20px;
+}
+
+
+.learn-more-btn-2{
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #ffffff;
+    color: #F4694C;
+    border: solid 2px #F4694C;
+    padding: 10px 20px;
+}
+.learn-more-btn-2:hover{
+    font-weight: 500;
+    font-size: 15px;
+    background-color:  #F4694C;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+
+/* third section */
+
+.third-section{
+    padding: 100px 100px;
+}
+
+/* third section top */
+.third-section-heading{
+    font-size: 40px;
+}
+.third-section-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.left-right-arrow{
+    display: flex;
+    gap: 10px;
+}
+.left-arrow{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    background-color: rgba(255, 210, 156, 0.507);
+}
+.left-arrow:hover{
+    padding: 0px;
+}
+
+
+.right-arrow{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    background-color: #F4694C;
+}
+.right-arrow:hover{
+    padding: 0px;
+}
+
+/* third section bottom */
+
+.third-section-bottom{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 100px;
+}
+.game-box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.game-box-img{
+    height: 250px;
+    width: auto;
+}
+
+.game-box-heading{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.game-box-category{
+    color: #F4694C;
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.game-box-description{
+    color: #797979;
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+/* fourth section */
+
+.fourth-section{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 100px;   
+}
+
+.fourth-section-heading{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 50px;
+    font-weight: 900;
+}
+
+.fourth-section-subheading{
+    font-size: 18px;
+    color: #797979;
+    font-weight: 300;
+    padding-left: 500px;
+}
+.game-of-the-year-banner{
+    position: relative;
+    left: 400px;
+    top: 50px;
+    z-index: 1;
+}
+
+.grid-imgs{
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.grid-img-1{
+    max-height: 500px;
+    position:relative;
+    bottom: 225px;
+}
+.grid-img-2{
+    max-height: 500px;
+    position: relative;
+    top: 20px;
+}
+.grid-img-3{
+    max-height: 300px;
+    position: relative;
+    top: 225px;
+}
+
+/* fifth section */
+
+.fifth-section{
+    text-align: center;
+    color: #ffffff;
+    background-image: url(./assets/Photos/Rectangle\ 606.png);
+    background-position: center center;
+    height: 500px;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.fifth-section-heading{
+    font-size: 50px;
+    font-weight: 900; 
+}
+.fifth-section-subheading{
+    font-size: 20px;
+    font-weight: 400;   
+}
+
+/* sixth section */
+
+.sixth-section{
+    background-color: #000000;
+    padding: 100px;
+    color: #ffffff;
+    display: flex;
+    gap: 200px;
+}
+/* left */
+.sixth-section-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sixth-section-logo{
+    height: 50px;
+    margin-right: 50px;
+}
+.sixth-section-left-imgs{
+    display: flex;
+    gap: 20px;
+}
+
+
+/* right */
+.sixth-section-right{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7,1fr);
+    column-gap: 100px;
+    row-gap: 20px;
+}
+
+.grid-heading{
+    font-weight: 900;
+}
+

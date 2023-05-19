@@ -1,0 +1,454 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+
+/* navbar styling */
+.navbar{
+    background-color: #151515;
+    color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.list-navbar-content{
+    display: flex;
+    gap: 50px;
+}
+
+
+
+/* buttons on right */
+.buttons-navbar{
+    display: flex;
+    gap: 50px;
+}
+
+.down-arrow{
+    font-size: 12px;
+    position: relative;
+    top: 6px;
+    right: 35px;
+}
+
+.pink-contactus-btn{
+    width: 50px;
+    height: 25px;
+    position: relative;
+    left: 73px;
+}
+
+
+
+/* first section */
+
+
+/* heading and subtitle */
+.first-section{
+    background-color: #151515;
+    color: #f0f0f0;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.first-heading{
+    font-weight: 400; 
+    font-size: 80px;
+}
+
+.one-card{
+    color: #F637EC;
+    font-weight: 600;
+}
+
+.first-subtitle{
+    color: #9d9d9d;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+
+/* get started button */
+.getstarted-btn{
+    display: flex;
+    align-items: center;
+    font-weight:600;
+    font-size: 30px;
+}
+
+.pink-getstarted-text{
+    position: relative;
+    right: 45px;
+}
+
+.pink-getstarted-btn{
+    width: 100px;
+    height: 50px;
+}
+
+.right-arrow{
+    position: relative;
+    right: 30px;
+}
+
+
+
+/* user base */
+.user-base{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.number{
+    font-size: 30px;
+}
+
+.plus-sign{
+    position: relative;
+    bottom: 2px;
+    color: #F637EC;
+}
+.user-base-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+/* back and front cards */
+.back-cards{
+    position: absolute;
+    top: 70px;
+    left: 400px;
+}
+.front-cards{
+    position: absolute;
+    top: 90px;
+    left: 555px;
+}
+
+
+/* second section */
+
+.second-section{
+    padding: 50px 100px;
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+/* third section */
+
+.third-section{
+    background-color: #151515;
+    color: #f0f0f0;
+    padding: 100px 100px;
+}
+
+
+/* heading subtitle */
+.heading-subtitle{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.second-heading{
+    font-weight: 400; 
+    font-size: 80px;
+}
+.your-transactions{
+    color: #F637EC;
+    font-weight: 600;
+}
+.second-subtitle{
+    position: relative;
+    left: 150px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+/* services card */
+
+.services-cards{
+    display: flex;
+    padding: 100px 0px;
+    justify-content: space-between;
+}
+.card-one-img{
+    position: relative;
+    left: 90px;
+    height: 150px;
+    width: 150px;
+}
+.card-one{
+    background-color: #272727;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-left: 3px outset white;
+    border-top: 3px outset white;
+    border-right: 0.5px groove white;
+    border-bottom: 0.5px groove white;
+    padding: 50px;
+    /* padding: 80px; */
+}
+
+.card-two-img{
+    position: relative;
+    left: 70px;
+    height: 150px;
+    width: 150px;
+}
+.card-two{
+    background-color: #7d7d7d;
+    font-size: 25px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-left: 3px outset white;
+    border-top: 3px outset white;
+    border-right: 0.5px groove white;
+    border-bottom: 0.5px groove white;
+    padding: 50px;
+
+}
+
+.card-three-img{
+    position: relative;
+    left: 70px;
+    height: 150px;
+    width: 150px;
+}
+
+.card-three{
+    background-color: #272727;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-left: 3px outset white;
+    border-top: 3px outset white;
+    border-right: 0.5px groove white;
+    border-bottom: 0.5px groove white;
+    padding: 50px;
+}
+
+/* fourth section */
+.fourth-section{
+    background-color: #FCEFFB;
+    padding-top: 100px;
+    text-align: center;
+}
+.v-cards{
+    position: relative;
+    bottom: 50px;
+}
+.third-heading{
+    font-weight: 400; 
+    font-size: 100px;
+    padding-bottom: 50px;
+}
+.card-choices{
+    color: #F637EC;
+    font-weight: 600;
+}
+.third-subtitle{
+    color: #9d9d9d;
+    font-size: 30px;
+}
+
+/* fifth section */
+/* heading and subtitle */
+.fifth-section{
+    background-color: #151515;
+    color: #f0f0f0;
+    padding: 50px 100px;
+}
+.customer-satisfaction{
+    text-align: center;
+}
+.fourth-heading{
+    font-weight: 400; 
+    font-size: 100px;
+    padding-bottom: 50px;
+}
+
+.the-features{
+    color: #F637EC;
+    font-weight: 600;
+}
+
+.fourth-subtitle{
+    font-size: 30px;
+    padding-bottom: 100px;
+    font-weight: lighter;
+}
+
+/* customer cards */
+.customer-cards{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-gap: 70px;
+}
+.customer-card:hover{
+    background-color: #4F4D4C;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-left: 3px outset white;
+    border-top: 3px outset white;
+    border-right: 0.5px groove white;
+    border-bottom: 0.5px groove white;
+    padding: 10px 20px;
+    padding-bottom: 10px;
+}
+
+.customer-card{
+    background-color: #272727;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-left: 3px outset white;
+    border-top: 3px outset white;
+    border-right: 0.5px groove white;
+    border-bottom: 0.5px groove white;
+    padding: 10px 20px;
+    padding-bottom: 10px;
+}
+.star-img{
+    height: 50px;
+    width: 150px;
+}
+
+
+/* scroll design */
+.scroll-design{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px 0px;
+}
+.scroll-rectangle{
+    height: 15px;
+    width: 70px;
+    background-color:#F637EC;
+    border-color: none;
+    border-radius: 15px;
+}
+.scroll-circle{
+    height: 15px;
+    width: 20px;
+    background-color:#444444;
+    border-color: none;
+    border-radius: 100px;
+}
+
+
+/* sixth section */
+
+.sixth-section{
+    text-align: center;
+    background-color: #151515;
+    color: #f0f0f0;
+    padding: 50px 100px;
+}
+
+.fifth-heading{
+    font-weight: 400; 
+    font-size: 90px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.getstarted-btn-2{
+    display: flex;
+    align-items: center;
+    font-weight:600;
+    font-size: 25px;
+    padding-left: 35%;
+    position: absolute;
+    z-index: 2;
+}
+.customising{
+    color: #151515;
+}
+
+/* images */
+.diamond-left{
+    position: absolute;
+    left: 10px;
+    top: 5000px;
+    z-index: 2;
+}
+.diamond-right{
+    position: absolute;
+    top: 5000px;
+    left: 950px;
+    z-index: 2;
+}
+
+.rectangle-1{
+    position: absolute;
+    top: 5000px;
+    left: 79px;
+    z-index: 1;
+    
+}
+.rectangle-2{
+    position: absolute;
+    top: 5000px;
+    left: 0px;
+    z-index: 1;
+} 
+
+/* footer */
+footer{
+    display: flex;
+    padding: 100px 100px;
+    padding-top: 300px;
+    background-color: #151515;
+    color: #f0f0f0;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.list-footer-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-right: 400px;
+    align-items: center;
+}
+
+.logo-footer{
+    padding-right: 200px  ;
+}

@@ -2,19 +2,31 @@
 
 ---
 ## Project_01 :
-![output image for Project_01](./Project_01/output.png)
+### Desired output :
+![output image for Project_01](./Project_01/desired_output.png)
+
+### Output obtained :
+![output image for Project_01](./Project_01/output_obtained.png)
 [Output file to Project_01](./Project_01/index.html)
 
 ---
 
 ## Project_02 :
-![output image for Project_02](./Project_02/output.png)
-[Output to Project_02](./Project_02/index.html)
+### Desired output :
+![output image for Project_01](./Project_02/desired_output.png)
+
+### Output obtained :
+![output image for Project_01](./Project_02/output_obtained.png)
+[Output file to Project_02](./Project_02/index.html)
 
 ---
 
 ## Project_03 :
-![output image for Project_03](./Project_03/output.png)
-[Output to Project_03](./Project_03/index.html)
+### Desired output :
+![output image for Project_01](./Project_03/desired_output.png)
 
-`Note: All folders have respective output files as mentioned`
+### Output obtained :
+![output image for Project_01](./Project_03/output_obtained.png)
+[Output file to Project_03](./Project_03/index.html)
+
+`Note: All folders have respective output files as mentioned also these projects are not responsive they are just made to practice replicating a design using css`
