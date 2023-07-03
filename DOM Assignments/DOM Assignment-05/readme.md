@@ -4,7 +4,7 @@
 ---
 #### Task 1 :
 
-User has to change colour of bottom of div according to the character and make the text colour to white.
+User has to add 6th recipe.
 
 **Output Screenshot**
 ![Output Screenshot](./output%20images/output_task1.png)
